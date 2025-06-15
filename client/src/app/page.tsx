@@ -1,4 +1,7 @@
+"use client";
 import Image from "next/image";
+import { SidebarProvider } from "@/components/ui/sidebar";
+import { AppSidebar } from "@/components/app-sidebar";
 
 export default function Home() {
   return (
